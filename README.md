@@ -69,7 +69,7 @@ I'm using MVVM architecture, so my app basically contains 3 layers:
 **ViewModel:** State holders (that hold data, expose it to the UI, and handle logic).
 **Repository:** Data Layer (call external or internal services to return any data).
 
-<img src="screenshots/architecture_layer.png" alt="layers" width="800"/>
+<img src="screenshots/architecture_layer.png" alt="layers"/>
 
 Also, i'm using a **single activity architecture**, i's means that my software has only one activity.
 This activity contains a fragment container view where i inflate all my fragments.
@@ -77,6 +77,8 @@ This activity contains a fragment container view where i inflate all my fragment
 I prefer to use this methodology because it's most simple to control app navigation, global events and
 it's avoids to much bureaucracy (activity declaration on manifest, for example)
 
-___
+<img src="screenshots/single activity.jpg" alt="single activity"/>
+
+____
 
 Last update: 06/30/2024
