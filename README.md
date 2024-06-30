@@ -13,10 +13,16 @@ ___
 ### Features:
 
  * **Menu:** you can see all menu sections and items.
+<img src="screenshots/menu.png" alt="Menu" width="200"/>
+   
  * **Order:** You can see all items in your order, choose a table and submit to kitchen.
- * **Tables:** You can see all orders of all tables, and close their accounts.
- * **Sign in, Sign up and Sign out.**
+<img src="screenshots/order.png" alt="Order" width="200"/>
 
+ * **Tables:** You can see all orders of all tables, and close their accounts..
+ * <img src="screenshots/table.png" alt="Table" width="200"/>  <img src="screenshots/table order.png" alt="Table Order" width="200"/>
+   
+ * **Sign in, Sign up and Sign out.**
+ * <img src="screenshots/login.png" alt="Login" width="200"/>  <img src="screenshots/register.png" alt="Register" width="200"/>
 ___
 
 ### Future features:
@@ -63,6 +69,7 @@ I'm using MVVM architecture, so my app basically contains 3 layers:
 **ViewModel:** State holders (that hold data, expose it to the UI, and handle logic).
 **Repository:** Data Layer (call external or internal services to return any data).
 
+<img src="screenshots/architecture_layer.png" alt="layers" width="800"/>
 
 Also, i'm using a **single activity architecture**, i's means that my software has only one activity.
 This activity contains a fragment container view where i inflate all my fragments.
