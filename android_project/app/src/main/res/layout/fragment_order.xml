@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clOrder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvOrderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/progress_order"
+        android:textColor="@color/black_600"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvOrderTotalValue"
+        android:layout_below="@id/tvOrderTable"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="20dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:itemCount="10"
+        tools:listitem="@layout/adapter_dish_item" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvOrderTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOrderTitle"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="4dp"
+        android:textAlignment="center"
+        android:textColor="@color/orange_900"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Mesa 6" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btSubmitOrder"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/add_dishe_background"
+        android:elevation="4dp"
+        android:paddingVertical="10dp"
+        android:text="@string/add_order_message"
+        android:textAlignment="center"
+        android:textColor="@color/red"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvOrderTable"
+        android:layout_alignStart="@id/tvOrderTable"
+        android:layout_alignEnd="@id/tvOrderTable"
+        android:background="@color/black_50"
+        android:elevation="4dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvOrderTotalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tvMessage"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/add_dishe_background"
+        android:elevation="4dp"
+        android:maxLines="1"
+        android:paddingVertical="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/orange_900"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="Valor do pedido: R$999,99" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btSubmitOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/orange_500"
+        android:paddingHorizontal="30dp"
+        android:paddingVertical="10dp"
+        android:text="@string/submit_order"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp" />
+
+    <include
+        android:id="@+id/includeEmptyOrder"
+        layout="@layout/include_empty_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        tools:visibility="gone" />
+
+    <include
+        android:id="@+id/includeOrderLoading"
+        layout="@layout/include_loading"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</RelativeLayout>

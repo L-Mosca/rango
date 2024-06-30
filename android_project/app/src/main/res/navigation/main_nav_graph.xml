@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:layout="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph.xml"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.rango.screen.splash.SplashFragment"
+        android:label="SplashFragment"
+        layout:layout="@layout/fragment_splash" />
+    <fragment
+        android:id="@+id/credentialFragment"
+        android:name="com.example.rango.screen.credential.CredentialFragment"
+        android:label="CredentialFragment"
+        layout:layout="@layout/fragment_credential">
+        <action
+            android:id="@+id/action_credentialFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.rango.screen.home.HomeFragment"
+        android:label="HomeFragment"
+        layout:layout="@layout/fragment_home" >
+        <argument
+            android:name="user"
+            app:argType="com.example.rango.domain.models.user.User" />
+    </fragment>
+</navigation>

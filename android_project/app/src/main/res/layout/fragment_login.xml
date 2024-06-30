@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingBottom="20dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivLoginGif"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintAnimationEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textColor="@color/black_900"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tilLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:hintAnimationEnabled="true"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:hint="@string/password"
+            android:imeOptions="actionSend"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textColor="@color/black_900"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/orange_500"
+        android:clickable="false"
+        android:paddingVertical="12dp"
+        android:text="@string/enter"
+        android:textAllCaps="true"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="20dp" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,79 @@
+<resources>
+    <!--Credential Screen-->
+    <string name="fill_fields">Preencha os campos abaixo</string>
+    <string name="login">Login</string>
+    <string name="dont_have_account">Não tem uma conta?</string>
+    <string name="have_account">Já tem uma conta?</string>
+    <string name="register">Cadastre-se</string>
+
+    <!--Login Screen-->
+    <string name="email">E-mail</string>
+    <string name="password">Senha</string>
+    <string name="enter">Entrar</string>
+    <string name="add_email">Insira um e-mail</string>
+    <string name="add_password">Insira a senha</string>
+    <string name="login_error">E-mail ou senha incorretos</string>
+
+    <!--Register Screen-->
+    <string name="name">Nome</string>
+    <string name="full_name">Nome e Sobrenome</string>
+    <string name="confirm_password">Confirme a senha</string>
+    <string name="minimum_characters">8 caracteres *</string>
+    <string name="upper_letter">maiúscula</string>
+    <string name="lower_letter">minúscula</string>
+    <string name="number">número *</string>
+    <string name="sign_up">Cadastrar</string>
+    <string name="insert_name">Insira seu nome e sobrenome</string>
+    <string name="confirm_password_empty">Confirme sua senha</string>
+    <string name="different_passwords">As senhas são diferentes</string>
+    <string name="invalid_password_format">Senha inválida</string>
+    <string name="register_error">Erro ao realizar cadastro</string>
+
+    <!--Home Screen-->
+    <string name="menu">Cardápio</string>
+    <string name="orders">Pedidos</string>
+    <string name="tables">Mesas</string>
+    <string name="logout">Sair</string>
+
+
+    <!--Menu Screen-->
+    <string name="starter">Entradas</string>
+    <string name="salads">Saladas</string>
+    <string name="main_dishes">Pratos Principais</string>
+    <string name="portions">Porções</string>
+    <string name="drinks">Bebidas</string>
+    <string name="add_dish">Adicionar ao pedido</string>
+    <string name="choose_table">Escolha uma mesa</string>
+    <string name="choose_table_warning">Seleciona uma mesa para continuar com o pedido</string>
+    <string name="dishe_total_value">Valor total: %1$s</string>
+    <string name="see_order">Ver Pedido</string>
+
+    <!--Order Screen-->
+    <string name="submit_order">Enviar para cozinha</string>
+    <string name="progress_order">Pedido em progresso</string>
+    <string name="empty_order">Nenhum pedido encontrado</string>
+    <string name="empty_order_message">parece que não há pedidos em andamento</string>
+    <string name="select_table">Selecione uma mesa</string>
+    <string name="clear_order">Apagar Pedido</string>
+    <string name="invalid_order">Pedido inválido</string>
+    <string name="order_error">Erro ao criar pedido</string>
+    <string name="order_success">Pedido criado com sucesso</string>
+    <string name="add_order_message">Adicione uma observação ao pedido</string>
+
+    <!--Table Screen-->
+    <string name="table_list_title">Mesas disponíveis</string>
+    <string name="details"><u>Ver detalhes</u></string>
+    <string name="see_table_order"><u>Ver pedidos</u></string>
+    <string name="table_order_id">Pedido: %1$s</string>
+    <string name="empty_table">Nenhuma mesa encontrada</string>
+    <string name="empty_table_message">parece que não há mesas disponíveis</string>
+    <string name="observation">Observação</string>
+    <string name="save">Salvar</string>
+    <string name="order_detail_message">Detalhes do pedido</string>\
+    <string name="order_title">Pedido %1$s</string>\
+    <string name="order_detail_message_data">Observações</string>\
+    <string name="without_message">Nenhuma observação encontrada</string>
+    <string name="close_order">Fechar Conta: %1$s</string>\
+    <string name="order_close_success">Conta fechada com sucesso</string>\
+    <string name="waiter">Atendente: %1$s</string>\
+</resources>

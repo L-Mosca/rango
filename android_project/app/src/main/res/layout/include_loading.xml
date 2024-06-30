@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlLoading"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loading_background"
+    android:elevation="10dp"
+    android:visibility="invisible">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivDefaultLoading"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+</RelativeLayout>

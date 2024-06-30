@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hsvMenu"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:scrollbars="none"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/pbMenu">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tlMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:backgroundTint="@android:color/white"
+                android:paddingBottom="10dp"
+                android:scrollbars="none"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tabGravity="start"
+                app:tabIndicator="@drawable/indicator_products"
+                app:tabIndicatorAnimationDuration="300"
+                app:tabIndicatorAnimationMode="elastic"
+                app:tabIndicatorColor="@null"
+                app:tabIndicatorFullWidth="true"
+                app:tabMode="fixed"
+                app:tabRippleColor="@null"
+                app:tabSelectedTextColor="@color/orange_500"
+                app:tabTextAppearance="@style/Base.TabTextAppearance"
+                app:tabTextColor="@color/black_100">
+
+                <!-- <com.google.android.material.tabs.TabItem
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/starter" />
+
+                 <com.google.android.material.tabs.TabItem
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/salads" />
+
+                 <com.google.android.material.tabs.TabItem
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/main_dishes" />
+
+                 <com.google.android.material.tabs.TabItem
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/portions" />
+
+                 <com.google.android.material.tabs.TabItem
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:text="@string/drinks" />-->
+            </com.google.android.material.tabs.TabLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</HorizontalScrollView>
