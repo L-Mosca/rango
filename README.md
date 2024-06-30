@@ -86,7 +86,8 @@ I prefer to use this methodology because it's most simple to control app navigat
 it's avoids to much bureaucracy (activity declaration on manifest, for example)
 
 <img src="screenshots/single activity.jpg" alt="single activity"/>
-____
+
+______
 
 ## Run this project:
 
