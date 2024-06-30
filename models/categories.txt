@@ -1,0 +1,26 @@
+"categories":[
+      {
+         "id":1000,
+         "name":"Entradas"
+      },
+      {
+         "id":1001,
+         "name":"Pratas Principais"
+      },
+      {
+         "id":1002,
+         "name":"Porções"
+      },
+      {
+         "id":1003,
+         "name":"Bebidas"
+      },
+      {
+         "id":1004,
+         "name":"Vinhos"
+      },
+      {
+         "id":1005,
+         "name":"Sobremesas"
+      }
+   ]

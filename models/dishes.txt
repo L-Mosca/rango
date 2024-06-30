@@ -1,0 +1,128 @@
+"dishes":[
+      {
+         "id":3000,
+         "name":"Carpaccio de beterraba com queijo de cabra",
+         "price":48.00,
+         "category":1000,
+         "image":"https://almadossabores.com/wp-content/uploads/2023/12/Carpaccio-de-Beterraba-Estrelado-500x500.webp"
+      },
+      {
+         "id":3001,
+         "name":"Salada Caprese",
+         "price":39.00,
+         "category":1000,
+         "image":"https://cdn0.tudoreceitas.com/pt/posts/3/6/9/salada_caprese_com_molho_pesto_963_600_square.jpg"
+      },
+      {
+         "id":3002,
+         "name":"Cuscuz marroquino com frutas secas",
+         "price":41.00,
+         "category":1000,
+	 "image":"https://lh6.googleusercontent.com/proxy/C7xgSGVEFdFFqkADjV22-yituImR6mDP-g--6Viu3NWWNh_jmkKRLe5kKa69DDI2jFffJLfQvOqP1jz1MXl8Z_LeBQv0rYVSYG82jthlUzhLd5DrUkP8LwiRbV7OiFjnMik19g"
+      },
+      {
+         "id":3003,
+         "name":"Salmão ao molho de maracuja com batata ao murro",
+         "price":97.00,
+         "category":1001,
+         "image":"https://i.ytimg.com/vi/bHctdx0QgQs/hqdefault.jpg"
+      },
+      {
+         "id":3004,
+         "name":"Cordeiro ao molho de vinho tinto com Aligot",
+         "price":105.00,
+         "category":1001,
+         "image":"https://achougastronomia.com.br/receitas/wp-content/uploads/2020/07/cordeir-500x375.jpg"
+      },
+      {
+         "id":3005,
+         "name":"Risoto de gorgonzola com pêra",
+         "price":78.00,
+         "category":1001,
+         "image":"https://pilecconobre.com.br/wp-content/uploads/2021/08/Risoto-de-Gorgonzola-e-Pera.jpg"
+      },
+      {
+         "id":3006,
+         "name":"Tábua de queijos",
+         "price":69.00,
+         "category":1002,
+         "image":"https://jeffersondealmeida.com.br/wp-content/uploads/2021/04/tabua-de-queijos.jpg"
+      },
+      {
+         "id":3007,
+         "name":"Azeitonas especiais",
+         "price":37.00,
+         "category":1002,
+         "image":"https://www.jornaldafranca.com.br/wp-content/uploads/2022/01/IMG-20220122-WA0047.jpg"
+      },
+      {
+         "id":3008,
+         "name":"Queijo coalho com geleia de goiabada",
+         "price":49.00,
+         "category":1002,
+         "image":"https://i0.wp.com/2.bp.blogspot.com/-PRdH28euqy8/VnSugtmjA9I/AAAAAAAA6vs/aq7Q-1sllsQ/s1600/Queijo-Coalho.jpg"
+      },
+      {
+         "id":3009,
+         "name":"Água Prata",
+         "price":7.00,
+         "category":1003,
+         "image":"https://www.vivagreenmarket.com.br/uploads/produtos/30238_barcelos_agua-com-gas_agua-mineral-prata-510ml-c-gas.jpg"
+      },
+      {
+         "id":3010,
+         "name":"Regrigerante ",
+         "price":9.00,
+         "category":1003,
+         "image":"https://horasagradamc.meucatalogofacil.com/_core/_uploads/14/2020/11/111328112016gk25fh0h.jpeg"
+      },
+      {
+         "id":3011,
+         "name":"Suco de frutas",
+         "price":12.00,
+         "category":1003,
+         "image":"https://static.itdg.com.br/images/auto-auto/6f670ea7f48e9e8bd8dc054aacea04f0/a67052ff7339339c9fe623e7d16beb6b-600x500.jpg"
+      },
+      {
+         "id":3012,
+         "name":"Vinho Cabernet Souvignon",
+         "price":189.00,
+         "category":1004,
+         "image":"https://cdn.dooca.store/1735/products/verse-cabertnet_640x640+fill_ffffff.jpg?v=1671709980&webp=0"
+      },
+      {
+         "id":3013,
+         "name":"Vinho Malbec",
+         "price":140.00,
+         "category":1004,
+         "image":"https://cdn.dooca.store/33560/products/vk6oufjpogmufitv8ardfkubdoejhxhcgaj7.png?v=1652968777"
+      },
+      {
+         "id":3014,
+         "name":"Vinho Chardonnay",
+         "price":168.00,
+         "category":1004,
+         "image":"https://taafrl.vtexassets.com/arquivos/ids/157033-800-auto?v=637342306174700000&width=800&height=auto&aspect=true"
+      },
+      {
+         "id":3015,
+         "name":"Pavlova de frutas vermelhas",
+         "price":28.00,
+         "category":1005,
+         "image":"https://catracalivre.com.br/cdn-cgi/image/f=auto,q=60,w=640,h=360,fit=cover/wp-content/uploads/2023/11/pavlova-de-frutas-vermelhas-910x619.jpg"
+      },
+      {
+         "id":3016,
+         "name":"Panna Cotta de pessêgo",
+         "price":30.00,
+         "category":1005,
+         "image":"https://receitascomnatas.pt/wp-content/uploads/2021/12/1639497409_panacota_de_paassego_e_quivi_2.png"
+      },
+      {
+         "id":3017,
+         "name":"Mini quindim",
+         "price":23.00,
+         "category":1005,
+         "image":"https://www.confeitariahoffmann.com.br/wp-content/uploads/mini-quindin-tradicional.jpg"
+      }
+   ]
