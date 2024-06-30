@@ -188,7 +188,7 @@ These models are inside this project inside models path models.
 Your database need to have three base directories: **categories, dishes and tables**.
 if you have no patience register some models only for test yout app, like this:
 
-<img src="screenshots/realtime_database.png" alt="realtime_database" width="200"/>
+<img src="screenshots/realtime_database.png" alt="realtime_database" width="600"/>
 
 **REMEMBER TO SET DEFAULT TEST RULES TO YOUR DATABASE:**
 ```
