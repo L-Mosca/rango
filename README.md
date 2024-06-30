@@ -12,33 +12,28 @@ ___
 
 ### Features:
 
- -> Menu: you can see all menu sections and items.
- -> Order: You can see all items in your order, choose a table and submit to kitchen.
- -> Tables: You can see all orders of all tables, and close their accounts.
- -> Sign in, Sign up and Sign out.
+ * **Menu:** you can see all menu sections and items.
+ * **Order:** You can see all items in your order, choose a table and submit to kitchen.
+ * **Tables:** You can see all orders of all tables, and close their accounts.
+ * **Sign in, Sign up and Sign out.**
 
 ___
 
 ### Future features:
 
-* Multi usages:
-At this moment this app can be used for only one restaurant.
+* **Multi usages:** At this moment this app can be used for only one restaurant.
 I want to make this app usable for as many restaurants as possible. For this, i need to create a restaurant register.
 Each restaurant can be create your own menu, table, employees account, administrator account...
 
-* Dishes register:
-At this moment i need to access firebase realtime database to register any new item to menu, i want to create a screen to insert new items to menu.
+* **Dishes register:** At this moment i need to access firebase realtime database to register any new item to menu, i want to create a screen to insert new items to menu.
 
-* Category register:
-Each dishe need at least one category (drinks, dessert...), and i need to create a feature to register new dishes categories.
+* **Category register:** Each dishe need at least one category (drinks, dessert...), and i need to create a feature to register new dishes categories.
 
-* Search dishes:
-Creation of a feature to search menu items by name, category...
+* **Search dishes:** Creation of a feature to search menu items by name, category...
 
-* Search tables:
-A feature to search tables.
+* **Search tables:** A feature to search tables.
 
-* Dark Mode
+* **Dark Mode**
 ___
 
 ## About this software
