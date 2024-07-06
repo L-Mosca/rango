@@ -1,6 +1,7 @@
 package com.example.rango.domain.local.datastore
 
 import android.content.Context
+import androidx.datastore.preferences.core.booleanPreferencesKey
 import androidx.datastore.preferences.core.edit
 import androidx.datastore.preferences.core.emptyPreferences
 import androidx.datastore.preferences.core.stringPreferencesKey
@@ -10,7 +11,6 @@ import com.example.rango.domain.models.menu.DisheItem
 import com.example.rango.domain.models.menu.Table
 import com.example.rango.domain.models.order.Order
 import com.example.rango.domain.models.user.User
-import com.example.rangodomain.local.datastore.PreferencesDataStoreContract
 import com.google.gson.Gson
 import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.coroutines.flow.Flow
@@ -28,6 +28,7 @@ class PreferencesDataStore @Inject constructor(@ApplicationContext val context: 
             "${BuildConfig.APP_NAME}.${BuildConfig.FLAVOR}.DataStore.WriteAway"
         private val userData = stringPreferencesKey(name = "$PREFERENCES_NAME.userData")
         private val order = stringPreferencesKey(name = "$PREFERENCES_NAME.order")
+        private val greetings = booleanPreferencesKey(name = "$PREFERENCES_NAME.showGreetings")
     }
 
     private val Context.dataStore by preferencesDataStore(name = PREFERENCES_NAME)
@@ -165,6 +166,21 @@ class PreferencesDataStore @Inject constructor(@ApplicationContext val context: 
 
         dataStore.edit { pref ->
             pref[order] = Gson().toJson(orderData)
+        }
+    }
+
+    override suspend fun showGreetings(): Boolean {
+        return dataStore.data.catch { exception ->
+            if (exception is IOException) emit(emptyPreferences())
+            else throw exception
+        }.map { pref ->
+            pref[greetings] ?: true
+        }.first()
+    }
+
+    override suspend fun showGreetings(showGreetings: Boolean) {
+        dataStore.edit { pref ->
+            pref[greetings] = showGreetings
         }
     }
 }

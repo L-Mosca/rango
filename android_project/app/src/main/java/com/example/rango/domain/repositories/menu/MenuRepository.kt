@@ -7,7 +7,7 @@ import com.example.rango.domain.models.menu.toDisheList
 import com.example.rango.domain.models.menu.toMenuCategories
 import com.example.rango.domain.models.menu.toTables
 import com.example.rango.utils.ApiConstants
-import com.example.rangodomain.local.datastore.PreferencesDataStoreContract
+import com.example.rango.domain.local.datastore.PreferencesDataStoreContract
 import com.google.firebase.database.ktx.database
 import com.google.firebase.database.snapshots
 import com.google.firebase.ktx.Firebase

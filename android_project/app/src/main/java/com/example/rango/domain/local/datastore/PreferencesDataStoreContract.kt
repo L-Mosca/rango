@@ -1,4 +1,4 @@
-package com.example.rangodomain.local.datastore
+package com.example.rango.domain.local.datastore
 
 import com.example.rango.domain.models.menu.DisheItem
 import com.example.rango.domain.models.menu.Table
@@ -29,4 +29,7 @@ interface PreferencesDataStoreContract {
     suspend fun observeOrder(): Flow<Order?>
 
     suspend fun setMessage(message: String)
+
+    suspend fun showGreetings(): Boolean
+    suspend fun showGreetings(showGreetings: Boolean)
 }

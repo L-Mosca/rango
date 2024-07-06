@@ -32,9 +32,5 @@
         android:id="@+id/greetingsFragment"
         android:name="com.example.rango.screen.greetings.GreetingsFragment"
         android:label="GreetingsFragment"
-        layout:layout="@layout/fragment_greetings">
-        <action
-            android:id="@+id/action_greetingsFragment_to_credentialFragment"
-            app:destination="@id/credentialFragment" />
-    </fragment>
+        layout:layout="@layout/fragment_greetings"/>
 </navigation>

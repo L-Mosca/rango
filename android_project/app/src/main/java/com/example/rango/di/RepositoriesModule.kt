@@ -1,13 +1,13 @@
 package com.example.rango.di
 
 import com.example.rango.domain.local.datastore.PreferencesDataStore
+import com.example.rango.domain.local.datastore.PreferencesDataStoreContract
 import com.example.rango.domain.repositories.menu.MenuRepository
 import com.example.rango.domain.repositories.menu.MenuRepositoryContract
 import com.example.rango.domain.repositories.order.OrderRepository
 import com.example.rango.domain.repositories.order.OrderRepositoryContract
 import com.example.rango.domain.repositories.user.UserRepository
 import com.example.rango.domain.repositories.user.UserRepositoryContract
-import com.example.rangodomain.local.datastore.PreferencesDataStoreContract
 import dagger.Binds
 import dagger.Module
 import dagger.hilt.InstallIn

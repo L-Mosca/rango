@@ -2,7 +2,7 @@ package com.example.rango.domain.repositories.user
 
 import com.example.rango.domain.models.user.User
 import com.example.rango.domain.models.user.toUser
-import com.example.rangodomain.local.datastore.PreferencesDataStoreContract
+import com.example.rango.domain.local.datastore.PreferencesDataStoreContract
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.UserProfileChangeRequest
 import com.google.firebase.auth.ktx.auth
