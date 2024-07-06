@@ -25,7 +25,8 @@ class SplashFragment : BaseFragment<FragmentSplashBinding>() {
         }
 
         viewModel.showCredentialScreen.observe(viewLifecycleOwner) {
-            findNavController().navigate(R.id.credentialFragment)
+            //findNavController().navigate(R.id.credentialFragment)
+            findNavController().navigate(R.id.greetingsFragment)
         }
     }
 }

@@ -20,6 +20,7 @@ class SplashViewModel @Inject constructor(
 
     val showHomeScreen = SingleLiveData<Unit>()
     val showCredentialScreen = SingleLiveData<Unit>()
+    val showGreetingsScreen = SingleLiveData<Unit>()
 
     fun loadSplashData() {
         Handler(Looper.getMainLooper()).postDelayed({

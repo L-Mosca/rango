@@ -69,11 +69,15 @@
     <string name="empty_table_message">parece que não há mesas disponíveis</string>
     <string name="observation">Observação</string>
     <string name="save">Salvar</string>
-    <string name="order_detail_message">Detalhes do pedido</string>\
-    <string name="order_title">Pedido %1$s</string>\
-    <string name="order_detail_message_data">Observações</string>\
+    <string name="order_detail_message">Detalhes do pedido</string>
+    <string name="order_title">Pedido %1$s</string>
+    <string name="order_detail_message_data">Observações</string>
     <string name="without_message">Nenhuma observação encontrada</string>
-    <string name="close_order">Fechar Conta: %1$s</string>\
-    <string name="order_close_success">Conta fechada com sucesso</string>\
-    <string name="waiter">Atendente: %1$s</string>\
+    <string name="close_order">Fechar Conta: %1$s</string>
+    <string name="order_close_success">Conta fechada com sucesso</string>
+    <string name="waiter">Atendente: %1$s</string>
+
+    <!--Greeting Screen-->
+    <string name="greeting_subtitle">Modernize seu Restaurante</string>
+    <string name="get_started">Vamos lá</string>
 </resources>

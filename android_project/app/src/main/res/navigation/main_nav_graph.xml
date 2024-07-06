@@ -23,9 +23,18 @@
         android:id="@+id/homeFragment"
         android:name="com.example.rango.screen.home.HomeFragment"
         android:label="HomeFragment"
-        layout:layout="@layout/fragment_home" >
+        layout:layout="@layout/fragment_home">
         <argument
             android:name="user"
             app:argType="com.example.rango.domain.models.user.User" />
+    </fragment>
+    <fragment
+        android:id="@+id/greetingsFragment"
+        android:name="com.example.rango.screen.greetings.GreetingsFragment"
+        android:label="GreetingsFragment"
+        layout:layout="@layout/fragment_greetings">
+        <action
+            android:id="@+id/action_greetingsFragment_to_credentialFragment"
+            app:destination="@id/credentialFragment" />
     </fragment>
 </navigation>
